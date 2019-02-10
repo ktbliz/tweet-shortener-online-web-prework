@@ -22,7 +22,7 @@ def word_substituter(tweet)
   
   new_tweet = tweet_array.collect do |x|
     if dictionary_keys_array.include?(x)
-      x = dictionary[x]
+      x = dictionary_hash[x]
     else 
       x
     end 
