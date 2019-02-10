@@ -20,7 +20,9 @@ def word_substituter(dictionary, tweet)
   dictionary_keys_array = dictionary.keys 
   
   new_tweet = tweet_array.collect do |x|
-    if dictionary_keys_array.include
+    if dictionary_keys_array.include?(x)
+      x = dictionary[x]
+    end 
   end 
 
   new_tweet = tweet_array.collect do |x|
