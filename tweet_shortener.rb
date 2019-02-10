@@ -13,7 +13,7 @@ def dictionary
   }
 end 
 
-puts dictionary.keys
+
 
 def word_substituter(dictionary, tweet)
   tweet_array = tweet.split(" ")
@@ -28,3 +28,5 @@ def word_substituter(dictionary, tweet)
   end
   new_tweet
 end 
+
+word_substituter(dictionary, )
