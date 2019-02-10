@@ -22,6 +22,8 @@ def word_substituter(dictionary, tweet)
   new_tweet = tweet_array.collect do |x|
     if dictionary_keys_array.include?(x)
       x = dictionary[x]
+    else 
+      x
     end 
   end 
 
