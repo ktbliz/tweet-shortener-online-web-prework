@@ -18,6 +18,10 @@ end
 def word_substituter(dictionary, tweet)
   tweet_array = tweet.split(" ")
   dictionary_keys_array = dictionary.keys 
+  
+  new_tweet = tweet_array.collect do |x|
+    if dictionary_keys_array.include
+  end 
 
   new_tweet = tweet_array.collect do |x|
     if x == dictionary_keys_array.each do |y| y end 
