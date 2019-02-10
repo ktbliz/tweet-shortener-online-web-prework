@@ -27,7 +27,7 @@ def word_substituter(tweet)
       x
     end 
   end 
-  puts new_tweet.join(" ")
+  new_tweet.join(" ")
 end 
 
 word_substituter("I'm running out of example tweets for you guys, which is weird, because I'm a writer and this is just writing and I tweet all day. For real, you guys. For real.")
